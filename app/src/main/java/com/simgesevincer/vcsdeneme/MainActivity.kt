@@ -7,5 +7,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val dizi = arrayListOf<Int>(1,2,3,4)
+        for (num in dizi){
+            println(num)
+        }
     }
 }
