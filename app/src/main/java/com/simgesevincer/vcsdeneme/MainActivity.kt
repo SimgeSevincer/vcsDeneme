@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val dizi = arrayListOf<Int>(1,2,3,4)
+        val dizi = arrayListOf(1,2,3,4)
         for (num in dizi){
             println(num)
         }
